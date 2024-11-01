@@ -1,6 +1,6 @@
 # AirBnB-Project
 ## Introduction
-*(This analysis was a part of case study based project for a business intelligence course during my masters degree)*
+*(This analysis was a part of case study based project for a business intelligence course during my masters degree)*\
 Airbnb Paris, a service-based company, relied on customer satisfaction to drive revenue. To enhance their service quality and attract new customers, they turned to sentiment analysis of online reviews. By analyzing customer feedback, we were able to identify areas where their service offerings and operational processes could be improved. This data-driven approach provided valuable insights to help Airbnb Paris optimize their services and ultimately boost customer satisfaction and revenue.
 ## Exploratory Data Analysis(EDA) 
 Once we gathered the data, we delved into a thorough exploration. Power BI was our tool of choice for visualizing and understanding the underlying patterns within the dataset.
@@ -12,6 +12,7 @@ Data Cleaning is one of the most vital step in data analysis. In order to clean 
 * **Splitting**
 * **Stopwords Removal**
 * **Punctuation Removal**
+  
 After cleaning and preprocessing the review text, we were ready to calculate sentiment scores. The VADER library was employed to assign sentiment scores to each review. To visualize the overall sentiment distribution, we plotted a histogram, allowing us to identify areas where sentiment was predominantly positive, negative, or neutral.
 ![image-2](https://github.com/user-attachments/assets/55d828a5-67eb-4297-b616-d3cdd6d504ec)
 
