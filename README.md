@@ -15,6 +15,30 @@ Data Cleaning is one of the most vital step in data analysis. In order to clean 
   
 After cleaning and preprocessing the review text, we were ready to calculate sentiment scores. The VADER library was employed to assign sentiment scores to each review. To visualize the overall sentiment distribution, we plotted a histogram, allowing us to identify areas where sentiment was predominantly positive, negative, or neutral.
 ![image-2](https://github.com/user-attachments/assets/55d828a5-67eb-4297-b616-d3cdd6d504ec)
+## Cluster Analysis
+As we can see from the histogram, most of the reviews were highly positive & few had a sentiment score little behind. We divided those reviews into clusters based on their characteristics. For this purpose, we used Elbow plot & Silhouette method to determine the optimal number of clusters based on the data.
+
+![image-3](https://github.com/user-attachments/assets/600f74f0-b639-46ba-acac-ae77bc432068)
+![image-4](https://github.com/user-attachments/assets/f5361bf8-142b-47a3-8a0e-c30ede73ec2e)
+
+From both methods, we were able to dtermine the optimal number of cluster(2)\
+There was a significant difference in average sentiment score for each cluster as evident below 
+
+![image-5](https://github.com/user-attachments/assets/23bfba9f-4e2e-40ad-851d-b1b7d3f399d4)
+
+## Findings
+For a better performing cluster in terms of sentiment score 
+1. Average price was low
+2. Average Security deposit was low
+3. Average Cleaning fee was low
+4. Average number of beds were greater
+5. Average number of baths were greater
+
+So, In order to improve sentiment score, properties from the low performing cluster need to focus more on the points given above. This will eventually improve the customer service/feedback & revenue for AirBnb Paris.
+
+
+
+
 
 
 
